@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+/* For Landing Page */
+#home {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://uploads.portfoliogen.com/photos/headerimages/2579_4BCEF5DA-5056-A84C-5355EB0417607B11.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: beige;
+    height: 25vh;
+}
+/* For Navbar */
+.navbar {
+    background-color: #d5bdaf;
+}
+
+/* For Contact Page */
+.card-block {
+    background-color: #d6ccc2;
+    margin: 20px;
+    border-radius: 5px;
+}
+.card-block > img {
+    border: 3px solid #d6ccc2;
+}
+
+/* For About Page */
+#abt-img {
+    height: 150px;
+    width: 240px;
+}
+#abt2-img {
+    height: 160px;
+}
+/* For Interests Page */
+.carousel-item h5 {
+    color: white;
+    background: rgba(0, 0, 0, .4);
+}
+.carousel-item p {
+    color: white;
+    background: rgba(0, 0, 0, .4);
+}
+/* For Resume Page */
+
+/* For Projects Page */
+
+
+/* For Footer Page */
+footer {
+    background-color: #d5bdaf;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
