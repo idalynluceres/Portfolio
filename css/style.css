@@ -124,6 +124,38 @@ body {
     background-color: #d5bdaf;
     color: white;
 }
+.fa-html5 {
+    font-size: 80px;
+    color: orangered;
+}
+.fa-html5:hover{
+    box-shadow: 5px 6px 6px 2px #d5bdaf;
+    transform: scale(1.1);
+}
+.fa-css3-alt {
+    font-size: 80px;
+    color: blue;
+}
+.fa-css3-alt:hover{
+    box-shadow: 5px 6px 6px 2px #d5bdaf;
+    transform: scale(1.1);
+}
+.fa-bootstrap {
+    font-size: 80px;
+    color: blueviolet;
+}
+.fa-bootstrap:hover{
+    box-shadow: 5px 6px 6px 2px #d5bdaf;
+    transform: scale(1.1);
+}
+.fa-github {
+    font-size: 80px;
+    color: black;
+}
+.fa-github:hover{
+    box-shadow: 5px 6px 6px 2px #d5bdaf;
+    transform: scale(1.1);
+}
 /* ******************* */
 /* For Education Page */
 /* ***************** */
