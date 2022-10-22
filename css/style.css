@@ -36,10 +36,18 @@ body {
 .btn {
     background-color: #d5bdaf;
 }
+.btn i:hover {
+    color: gray;
+}
 .btn-send {
     background-color: #4361ee;
     color: white;
 }
+.btn-send:hover {
+    background-color: gray;
+    color: white;
+}
+
 .fa-square-github {
     color: black;
     font-size: 30px;
@@ -80,10 +88,19 @@ body {
     background: rgba(0, 0, 0, .4);
 }
 
-/* For Resume Page */
-
+/* For Experience Page */
+.btn-resume a{
+    text-decoration: none;
+}
+.btn-resume a:hover {
+    color: rgba(20, 20, 23, 0.7);
+}
 /* For Projects Page */
 
+/* For Education Page */
+.education-link a:hover{
+    color: gray;
+}
 
 /* For Footer Page */
 footer {
