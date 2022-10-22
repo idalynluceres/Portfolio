@@ -23,6 +23,10 @@ body {
 .navbar {
     background-color: #d5bdaf;
 }
+.nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
 
 /* For Contact Page */
 .card-block {
@@ -94,6 +98,7 @@ body {
 }
 .btn-resume a:hover {
     color: rgba(20, 20, 23, 0.7);
+    text-decoration: underline;
 }
 /* For Projects Page */
 
@@ -108,3 +113,4 @@ footer {
     padding-top: 10px;
     padding-bottom: 1px;
 }
+
