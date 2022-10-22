@@ -18,6 +18,7 @@ body {
     background-color: beige;
     height: 25vh;
 }
+
 /* For Navbar */
 .navbar {
     background-color: #d5bdaf;
@@ -32,6 +33,33 @@ body {
 .card-block > img {
     border: 3px solid #d6ccc2;
 }
+.btn {
+    background-color: #d5bdaf;
+}
+.btn-send {
+    background-color: #4361ee;
+    color: white;
+}
+.fa-square-github {
+    color: black;
+    font-size: 30px;
+}
+.fa-envelope {
+    color: #4361ee;
+    font-size: 25px;
+}
+.fa-square-facebook {
+    color: #03045e;
+    font-size: 25px;
+}
+.fa-square-instagram {
+    color: #d90429;
+    font-size: 25px;
+}
+.fa-linkedin {
+    color: #3a86ff;
+    font-size: 25px;
+}
 
 /* For About Page */
 #abt-img {
@@ -41,6 +69,7 @@ body {
 #abt2-img {
     height: 160px;
 }
+
 /* For Interests Page */
 .carousel-item h5 {
     color: white;
@@ -50,6 +79,7 @@ body {
     color: white;
     background: rgba(0, 0, 0, .4);
 }
+
 /* For Resume Page */
 
 /* For Projects Page */
