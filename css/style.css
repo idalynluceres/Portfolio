@@ -8,8 +8,9 @@ body {
     height: 100vh;
     scroll-behavior: smooth;
 }
-
+/* ***************** */
 /* For Landing Page */
+/* *************** */
 #home {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://uploads.portfoliogen.com/photos/headerimages/2579_4BCEF5DA-5056-A84C-5355EB0417607B11.png");
     background-position: center;
@@ -18,8 +19,9 @@ body {
     background-color: beige;
     height: 25vh;
 }
-
+/* *********** */
 /* For Navbar */
+/* ********* */
 .navbar {
     background-color: #d5bdaf;
 }
@@ -27,8 +29,9 @@ body {
     color: white;
     text-decoration: underline;
 }
-
+/* ***************** */
 /* For Contact Page */
+/* *************** */
 .card-block {
     background-color: #d6ccc2;
     margin: 20px;
@@ -51,7 +54,6 @@ body {
     background-color: gray;
     color: white;
 }
-
 .fa-square-github {
     color: black;
     font-size: 30px;
@@ -72,8 +74,9 @@ body {
     color: #3a86ff;
     font-size: 25px;
 }
-
+/* *************** */
 /* For About Page */
+/* ************* */
 #abt-img {
     height: 150px;
     width: 240px;
@@ -81,8 +84,9 @@ body {
 #abt2-img {
     height: 160px;
 }
-
+/* ******************* */
 /* For Interests Page */
+/* ***************** */
 .carousel-item h5 {
     color: white;
     background: rgba(0, 0, 0, .4);
@@ -91,8 +95,9 @@ body {
     color: white;
     background: rgba(0, 0, 0, .4);
 }
-
+/* ******************** */
 /* For Experience Page */
+/* ****************** */
 .btn-resume a{
     text-decoration: none;
 }
@@ -100,14 +105,34 @@ body {
     color: rgba(20, 20, 23, 0.7);
     text-decoration: underline;
 }
+/* ****************** */
 /* For Projects Page */
-
+/* **************** */
+.card{
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+.card-body a {
+    border: none;
+    color: black;
+}
+.card-body a:hover {
+    background-color: #d5bdaf;
+    color: white;
+}
+/* ******************* */
 /* For Education Page */
+/* ***************** */
 .education-link a:hover{
     color: gray;
 }
-
+/* **************** */
 /* For Footer Page */
+/* ************** */
 footer {
     background-color: #d5bdaf;
     padding-top: 10px;
